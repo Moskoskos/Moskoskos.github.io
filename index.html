@@ -13,7 +13,7 @@
     <script>
       const elmDiv = document.querySelector('#elm-app');
       if (elmDiv) {
-        var myApp = Elm.Main.embed(elmDiv);
+        const app = Elm.Hello.init({ node: myDiv });
       }
     </script>
   </body>
